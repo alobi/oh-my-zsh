@@ -23,7 +23,7 @@ prompt_pygmalion_precmd(){
 
   local nl=""
 
-  if [[ $prompt_length -gt 40 ]]; then
+  if [[ $prompt_length -gt 70 ]]; then
     nl=$'\n%{\r%}';
   fi
   PROMPT="$base_prompt$gitinfo$nl$post_prompt"
